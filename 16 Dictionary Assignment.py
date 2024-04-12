@@ -1,12 +1,12 @@
 # Dictionary Assignment
 
 # Q1. Write a program that takes two lists of equal length as input and creates a dictionary that maps elements from one list to corresponding elements in the other list.
-# keys = ['a', 'b', 'c', 'd']
-# values = [1, 2, 3, 4]
+keys = ['a', 'b', 'c', 'd']
+values = [1, 2, 3, 4]
 # Output:
-# {'a': 1, 'b': 2, 'c': 3, 'd': 4}
+{'a': 1, 'b': 2, 'c': 3, 'd': 4}
 
-"""
+
 keys = ['a', 'b', 'c', 'd']
 values = [1, 2, 3, 4]
 d={}
@@ -14,7 +14,7 @@ d={}
 for i in range(len(keys)):
     d.update({keys[i]:values[i]})
 print(d)
-"""
+
 
 # Q2. Write a program that takes a list of names as input and creates a dictionary that counts the number of times each name appears in the list.
 # names = ['Alice', 'Bob', 'Charlie', 'David', 'Alice', 'Bob', 'Alice']
